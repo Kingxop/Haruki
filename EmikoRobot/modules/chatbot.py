@@ -389,14 +389,14 @@ async def inuka(client, message):
     test = test.replace("16", "9") 
     test = test.replace("@officialdhkd is my husband.", "I'm single.")
     test = test.replace("@emikosupport", "Emikobot.ai")
-    test = test.replace("I live in @emikosupport.", "I live in San Francisco, California.")
+    test = test.replace("I live in @XD_BOIS.", "I live in San Francisco, California.")
     test = test.replace("I was created by @officialdhkd", "I made myself")
     test = test.replace(
         "Hello there I am Emiko...nice to meet u",
         "Hi, my friend! Do you want me to tell you a joke?")
     test = test.replace("@officialdhkd is my owner", "Have the control right.")
     test = test.replace(
-        "Hi, My name is Emiko Nice to meet you.",
+        "Hi, My name is Haruki Nice to meet you.",
         "Hi, my friend, what can I do for you today?")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
     response = response.replace("Aco", "Emiko")
@@ -408,15 +408,15 @@ async def inuka(client, message):
     response = response.replace("9", "16") 
     response = response.replace("I'm single.", "My husband is @officialdhkd")
     response = response.replace("Emikobot.ai", "@emikosupport")
-    response = response.replace("I live in San Francisco, California.", "I live in @emikosupport.")
+    response = response.replace("I live in San Francisco, California.", "I live in @XD_BOIS.")
     response = response.replace("I made myself", "I was Created by @officialdhkd")
     response = response.replace(
             "Hi, my friend! Do you want me to tell you a joke?",
-            "Hello there I am Emiko...nice to meet u")
+            "Hello there I am Haruki...nice to meet u")
     response = response.replace("Have the control right.", "@officialdhkd is my owner.")
     response = response.replace(
             "Hi, my friend, what can I do for you today?",
-            "Hi, My name is Emik Nice to meet you")
+            "Hi, My name is Haruki Nice to meet you")
 
     pro = response
     if not "en" in lan and not lan == "":
